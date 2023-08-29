@@ -29,6 +29,19 @@ Os 4 exercícios são descritos abaixo:
 
 # Como jogar
 Com a calibração feita o usuário pode abrir o jogo e selecionar qual exercício deseja realizar. É importante que o usuário foque na posição final demonstrada na animação e não no movimento em si. A pontuação será dada após o exercício ser completado e a avaliação da qualidade do exercício segue de acordo com o que foi visto na Tabela.
+Os botões na lateral iniciam o video do respectivo exercicio, apos o termino do video a pontuação é registrada no topo da interface e salva.
+O botão "Ajuda" possui um tutorial de como jogar.
+O botão "Duvidas" abre esta pagina do GitHub
 A pontuação é salva e pode ser verificada clicando no botão "Avaliação"
 
 # Possiveis erros e soluções
+Primeiramente tenha certeza de executar o sistema como administrador, isto pode resolver muitos problemas.
+
+Caso o OpenPose não esteja abrindo corretamente execute-o separadamente no prompt de comando com a seguinte função: “in\OpenPoseDemo.exe --hand --write_json output_json_folder/”
+Caso isto não funcione cheque a pagina do proprio OpenPose para soluções de erros na instalação.
+
+Caso a pontuação não esteja sendo dada corretamente o erro provavelmente esta na calibração ter sido feita incorretamente. Tente refazer a calibração prestando atenção em não movimentar a camera.
+
+Caso o video dos exercicios não esteja sendo reproduzido corretamente abra o codigo e verifique se os paths dos videos estão certos. Problemas de path podem acontecer quando o arquivo não foi salvo no local certo.
+
+Caso a pontuação não esteja sendo salva corretamente abra o codigo e verifique se o path desta tambemesta correto.
