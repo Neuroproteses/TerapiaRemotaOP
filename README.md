@@ -38,7 +38,9 @@ A pontuação é salva e pode ser verificada clicando no botão "Avaliação"
 
 # Possiveis erros e soluções
 Primeiramente tenha certeza de executar o sistema como administrador, isto pode resolver muitos problemas.
+
 Execute o codigo no VisualStudio para ver diretamente o erro.
+
 Caso o OpenPose não esteja abrindo corretamente execute-o separadamente no prompt de comando com a seguinte função: “in\OpenPoseDemo.exe --hand --write_json output_json_folder/”
 Caso isto não funcione cheque a pagina do proprio OpenPose para soluções de erros na instalação.
 
