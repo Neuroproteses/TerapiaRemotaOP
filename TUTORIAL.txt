@@ -1,0 +1,10 @@
+Lembre-se de fazer a calibração, caso tenha duvidas clique no botão "Duvidas".
+
+Para realizar os exercicios e obter uma boa pontuação foque na posição final de acordo com o que é visto no video.
+Caso a pontuação não parece estar de acordo ou haja algum problema clique no botão "Duvidas" para abrir a pagina do GitHub.
+
+Os 4 exercícios são:
+1.	Um simples exercício de abrir a mão, com a palma apontada para a câmera. Este exercício por ser bem simples é perfeito para ser utilizado como forma de verificação se o jogo e o OpenPose estão lendo as coordenadas corretamente.
+2.	Um exercício de pegar uma escova de dentes, este exercício consiste no movimento de fechar a mão completamente para pegar um objeto.
+3.	Um exercício de pegar um pedaço de pão, este exercício consiste no movimento de pegar um objeto maior, porém fino precisando que a mão esteja um pouco mais aberta.
+4.	Um exercício de pegar um copo, este exercício consiste no movimento de pegar um objeto tanto maior quanto mais largo precisando que a mão esteja ainda mais aberta.
