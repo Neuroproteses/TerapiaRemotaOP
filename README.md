@@ -5,6 +5,10 @@ Sistema para terapia remota focado nos membros superiores utilizando o OpenPose
 Para utilizar o sistema é necessario instalar o OpenPose separadamente, para isto é recomendado seguir as instruções na pagina do GitHub do proprio OpenPose.
 Caso haja problemas muitas das soluções podem ser encontradas na pagina do OpenPose.
 Este sistema deve ser colocado na mesma pasta do OpenPose para funcinar corretamente.
+Para instalar as bibliotecas necessarias:
+pip install opencv-python
+pip install pillow
+pip install watchdog
 
 # Calibração
 O ângulo e posição da câmera afetam de grande forma a precisão do sistema e, portanto, para o uso é essencial que seja feita uma calibração individual para cada usuário ou computador.
