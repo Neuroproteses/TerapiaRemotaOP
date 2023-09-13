@@ -6,8 +6,11 @@ Para utilizar o sistema é necessario instalar o OpenPose separadamente, para is
 Caso haja problemas muitas das soluções podem ser encontradas na pagina do OpenPose.
 Este sistema deve ser colocado na mesma pasta do OpenPose para funcinar corretamente.
 Para instalar as bibliotecas necessarias:
+
 pip install opencv-python
+
 pip install pillow
+
 pip install watchdog
 
 # Calibração
